@@ -1,17 +1,17 @@
 // This is your content database. Add new items here.
 const items = [
     {
-        name: "Google",
-        link: "https://careers.google.com/",
+        name: "IBM",
+        link: "https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=52240&fbclid=PAT01DUAMrPftleHRuA2FlbQIxMAABp-iV7jrYSQY_eJ0lgPAE7yY4zG2ozuyCmVQJjXeEz86tRKTTdeRmkFiW0Nw2_aem_aebtwEv8mMAg6cHH5j0BlA",
         category: "jobs",
         postDate: "2025-09-07"
     },
-    {
-        name: "Microsoft",
-        link: "https://careers.microsoft.com/",
-        category: "jobs",
-        postDate: "2025-09-06"
-    },
+    // {
+    //     name: "Microsoft",
+    //     link: "https://careers.microsoft.com/",
+    //     category: "jobs",
+    //     postDate: "2025-09-06"
+    // },
     {
         name: "Free JavaScript Ebook",
         link: "https://javascript.info/ebooks",
@@ -116,3 +116,4 @@ backButton.addEventListener("click", () => {
     contentView.classList.add("hidden");
     categoryGrid.classList.remove("hidden");
 });
+

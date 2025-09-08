@@ -11,20 +11,23 @@
     <div class="app-container">
         <h1>My Resources</h1>
 
-        <!-- The main container for the small, side-by-side category boxes -->
         <div class="category-grid" id="category-grid">
-            <div class="category-box" id="jobs-box">
-                <div class="box-label">Jobs</div>
+            <div class="top-row-boxes">
+                <div class="category-box" id="jobs-box">
+                    <div class="box-label">Jobs</div>
+                </div>
+                <br>
+                <div class="category-box" id="notes-pdf-box">
+                    <div class="box-label">Notes & PDFs</div>
+                </div>
             </div>
-            <div class="category-box" id="notes-pdf-box">
-                <div class="box-label">Notes & PDFs</div>
-            </div>
-            <div class="category-box" id="courses-box">
-                <div class="box-label">Courses</div>
+            <div class="full-width-box">
+                <div class="category-box" id="courses-box">
+                    <div class="box-label">Courses</div>
+                </div>
             </div>
         </div>
 
-        <!-- The container for the content that appears after a category is clicked -->
         <div class="content-view hidden" id="content-view">
             <div class="content-header">
                 <span class="back-button" id="back-button">Back</span>
